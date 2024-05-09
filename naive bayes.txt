@@ -1,0 +1,18 @@
+Naïve Bayes algorithm is used for classification problems. It is highly used in text classification. In text classification tasks, data contains high dimension (as each word represent one feature in the data). It is used in spam filtering, sentiment detection, rating classification etc. The advantage of using naïve Bayes is its speed. It is fast and making prediction is easy with high dimension of data.
+
+
+Applications of Naive Bayes Classifier
+Spam Email Filtering: Classifies emails as spam or non-spam based on features.
+Text Classification: Used in sentiment analysis, document categorization, and topic classification.
+Medical Diagnosis: Helps in predicting the likelihood of a disease based on symptoms.
+Credit Scoring: Evaluates creditworthiness of individuals for loan approval.
+Weather Prediction: Classifies weather conditions based on various factors.
+
+Assumption of Naive Bayes
+The fundamental Naive Bayes assumption is that each feature makes an:
+
+Feature independence: The features of the data are conditionally independent of each other, given the class label.
+Continuous features are normally distributed: If a feature is continuous, then it is assumed to be normally distributed within each class.
+Discrete features have multinomial distributions: If a feature is discrete, then it is assumed to have a multinomial distribution within each class.
+Features are equally important: All features are assumed to contribute equally to the prediction of the class label.
+No missing data: The data should not contain any missing values.
